@@ -137,7 +137,9 @@ width: 30px;
     animation-delay: 2s;
 
 }
-@media (max-width:880px)
+@media screen and (max-width:880px) and (min-height:600px) 
+    
+
 {
 
     *{
@@ -164,11 +166,7 @@ width: 30px;
     font-size: 18px;
     background: rgb(232, 109, 109);
     padding: 10px;
-<<<<<<< Updated upstream
-    
-=======
     margin-top: 20px;
->>>>>>> Stashed changes
     border-radius: 130px;
     
     }
@@ -182,11 +180,7 @@ width: 30px;
         background: transparent;
     }
     .navbar li a:hover{
-<<<<<<< Updated upstream
-        color: red;
-=======
         color:white;
->>>>>>> Stashed changes
         background-color:red;
         box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
         padding: 10px;
@@ -194,13 +188,6 @@ width: 30px;
     
     }
     .h1{
-<<<<<<< Updated upstream
-        color: aliceblue;
-        position:center;
-        margin:10px;
-        font-size: 10px;
-        border: red;
-=======
         color: red;
         position:relative;
         margin:0px;
@@ -214,7 +201,6 @@ width: 30px;
         margin-top: 20px;
         border-radius: 30px;
         
->>>>>>> Stashed changes
     }
     
     .h2{
@@ -245,8 +231,6 @@ width: 30px;
         
     }
 }
-<<<<<<< Updated upstream
-=======
 @media (max-width:1030px){
     .h1{
         color: red;
@@ -259,4 +243,3 @@ width: 30px;
     
 
 }
->>>>>>> Stashed changes
