@@ -78,7 +78,7 @@ font-size: 24px;
     border-radius: 90px;
     border: transparent;
     background: transparent;
-    animation: buble 7s linear infinite;
+    animation: buble 9s linear infinite;
 }
 .buble{
     width: 100%;
@@ -86,7 +86,7 @@ font-size: 24px;
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    bottom: -50px;
+    bottom: -90px;
     background: transparent;
     margin: 0;
     padding: 0px;
@@ -164,7 +164,11 @@ width: 30px;
     font-size: 18px;
     background: rgb(232, 109, 109);
     padding: 10px;
+<<<<<<< Updated upstream
     
+=======
+    margin-top: 20px;
+>>>>>>> Stashed changes
     border-radius: 130px;
     
     }
@@ -178,7 +182,11 @@ width: 30px;
         background: transparent;
     }
     .navbar li a:hover{
+<<<<<<< Updated upstream
         color: red;
+=======
+        color:white;
+>>>>>>> Stashed changes
         background-color:red;
         box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
         padding: 10px;
@@ -186,11 +194,27 @@ width: 30px;
     
     }
     .h1{
+<<<<<<< Updated upstream
         color: aliceblue;
         position:center;
         margin:10px;
         font-size: 10px;
         border: red;
+=======
+        color: red;
+        position:relative;
+        margin:0px;
+        font-size: 20px;
+        border:black;
+        left: 10px;
+        right: 79px;
+        bottom: 10px;
+        text-decoration: none;
+        padding-bottom: 0px;
+        margin-top: 20px;
+        border-radius: 30px;
+        
+>>>>>>> Stashed changes
     }
     
     .h2{
@@ -221,3 +245,18 @@ width: 30px;
         
     }
 }
+<<<<<<< Updated upstream
+=======
+@media (max-width:1030px){
+    .h1{
+        color: red;
+        position:relative;
+        margin:10px;
+        font-size: 18px;
+        border: red;
+        right: 40px;
+    }
+    
+
+}
+>>>>>>> Stashed changes
